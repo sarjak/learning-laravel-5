@@ -17,6 +17,8 @@ Route::get('home', 'HomeController@index');
 
 Route::get('blog','PagesController@index');
 
+Route::get('articles','ArticlesController@index');
+
 // Reads an item
 Route::get('test',function(){
 	echo '<form action="test" method="post">';
